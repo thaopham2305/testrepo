@@ -1,0 +1,6 @@
+[root@zabbix devnet]# docker run -d -p 8080:5000 pythonapp:v2
+3adc4d14dbbc28ec86ed2b5d239f5dad0b79ccc0117a63475124a393801da742
+[root@zabbix devnet]# curl localhost:8080
+Hello, This is final devnet!!!
+[root@zabbix devnet]#
+

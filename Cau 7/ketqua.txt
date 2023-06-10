@@ -1,0 +1,807 @@
+Using docker image sha256:eeb6ee3f44bd0b5103bb561b4c16bcb82328cfe5809ab675bb17ab3a16c517c9 for centos:centos7.9.2009 with digest centos@sha256:be65f488b7764ad3638f236b7b515b3678369a5124c47b8d32916d6487418ea4 ...
+$ yum update -y
+Loaded plugins: fastestmirror, ovl
+Determining fastest mirrors
+ * base: mirrors.vhost.vn
+ * extras: mirrors.vhost.vn
+ * updates: mirror.vodien.com
+Resolving Dependencies
+--> Running transaction check
+---> Package bash.x86_64 0:4.2.46-34.el7 will be updated
+---> Package bash.x86_64 0:4.2.46-35.el7_9 will be an update
+---> Package bind-license.noarch 32:9.11.4-26.P2.el7 will be updated
+---> Package bind-license.noarch 32:9.11.4-26.P2.el7_9.13 will be an update
+---> Package binutils.x86_64 0:2.27-44.base.el7 will be updated
+---> Package binutils.x86_64 0:2.27-44.base.el7_9.1 will be an update
+---> Package ca-certificates.noarch 0:2020.2.41-70.0.el7_8 will be updated
+---> Package ca-certificates.noarch 0:2022.2.54-74.el7_9 will be an update
+---> Package centos-release.x86_64 0:7-9.2009.0.el7.centos will be updated
+---> Package centos-release.x86_64 0:7-9.2009.1.el7.centos will be an update
+---> Package coreutils.x86_64 0:8.22-24.el7 will be updated
+---> Package coreutils.x86_64 0:8.22-24.el7_9.2 will be an update
+---> Package curl.x86_64 0:7.29.0-59.el7 will be updated
+---> Package curl.x86_64 0:7.29.0-59.el7_9.1 will be an update
+---> Package cyrus-sasl-lib.x86_64 0:2.1.26-23.el7 will be updated
+---> Package cyrus-sasl-lib.x86_64 0:2.1.26-24.el7_9 will be an update
+---> Package device-mapper.x86_64 7:1.02.170-6.el7 will be updated
+---> Package device-mapper.x86_64 7:1.02.170-6.el7_9.5 will be an update
+---> Package device-mapper-libs.x86_64 7:1.02.170-6.el7 will be updated
+---> Package device-mapper-libs.x86_64 7:1.02.170-6.el7_9.5 will be an update
+---> Package expat.x86_64 0:2.1.0-12.el7 will be updated
+---> Package expat.x86_64 0:2.1.0-15.el7_9 will be an update
+---> Package glib2.x86_64 0:2.56.1-7.el7 will be updated
+---> Package glib2.x86_64 0:2.56.1-9.el7_9 will be an update
+---> Package glibc.x86_64 0:2.17-317.el7 will be updated
+---> Package glibc.x86_64 0:2.17-326.el7_9 will be an update
+---> Package glibc-common.x86_64 0:2.17-317.el7 will be updated
+---> Package glibc-common.x86_64 0:2.17-326.el7_9 will be an update
+---> Package gzip.x86_64 0:1.5-10.el7 will be updated
+---> Package gzip.x86_64 0:1.5-11.el7_9 will be an update
+---> Package kpartx.x86_64 0:0.4.9-133.el7 will be updated
+---> Package kpartx.x86_64 0:0.4.9-136.el7_9 will be an update
+---> Package krb5-libs.x86_64 0:1.15.1-50.el7 will be updated
+---> Package krb5-libs.x86_64 0:1.15.1-55.el7_9 will be an update
+---> Package libblkid.x86_64 0:2.23.2-65.el7 will be updated
+---> Package libblkid.x86_64 0:2.23.2-65.el7_9.1 will be an update
+---> Package libcurl.x86_64 0:7.29.0-59.el7 will be updated
+---> Package libcurl.x86_64 0:7.29.0-59.el7_9.1 will be an update
+---> Package libmount.x86_64 0:2.23.2-65.el7 will be updated
+---> Package libmount.x86_64 0:2.23.2-65.el7_9.1 will be an update
+---> Package libsmartcols.x86_64 0:2.23.2-65.el7 will be updated
+---> Package libsmartcols.x86_64 0:2.23.2-65.el7_9.1 will be an update
+---> Package libuuid.x86_64 0:2.23.2-65.el7 will be updated
+---> Package libuuid.x86_64 0:2.23.2-65.el7_9.1 will be an update
+---> Package libxml2.x86_64 0:2.9.1-6.el7.5 will be updated
+---> Package libxml2.x86_64 0:2.9.1-6.el7_9.6 will be an update
+---> Package libxml2-python.x86_64 0:2.9.1-6.el7.5 will be updated
+---> Package libxml2-python.x86_64 0:2.9.1-6.el7_9.6 will be an update
+---> Package nspr.x86_64 0:4.25.0-2.el7_9 will be updated
+---> Package nspr.x86_64 0:4.34.0-3.1.el7_9 will be an update
+---> Package nss.x86_64 0:3.53.1-3.el7_9 will be updated
+---> Package nss.x86_64 0:3.79.0-4.el7_9 will be an update
+---> Package nss-softokn.x86_64 0:3.53.1-6.el7_9 will be updated
+---> Package nss-softokn.x86_64 0:3.79.0-4.el7_9 will be an update
+---> Package nss-softokn-freebl.x86_64 0:3.53.1-6.el7_9 will be updated
+---> Package nss-softokn-freebl.x86_64 0:3.79.0-4.el7_9 will be an update
+---> Package nss-sysinit.x86_64 0:3.53.1-3.el7_9 will be updated
+---> Package nss-sysinit.x86_64 0:3.79.0-4.el7_9 will be an update
+---> Package nss-tools.x86_64 0:3.53.1-3.el7_9 will be updated
+---> Package nss-tools.x86_64 0:3.79.0-4.el7_9 will be an update
+---> Package nss-util.x86_64 0:3.53.1-1.el7_9 will be updated
+---> Package nss-util.x86_64 0:3.79.0-1.el7_9 will be an update
+---> Package openldap.x86_64 0:2.4.44-22.el7 will be updated
+---> Package openldap.x86_64 0:2.4.44-25.el7_9 will be an update
+---> Package openssl-libs.x86_64 1:1.0.2k-19.el7 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-25.el7_9 will be an update
+---> Package python.x86_64 0:2.7.5-89.el7 will be updated
+---> Package python.x86_64 0:2.7.5-92.el7_9 will be an update
+---> Package python-libs.x86_64 0:2.7.5-89.el7 will be updated
+---> Package python-libs.x86_64 0:2.7.5-92.el7_9 will be an update
+---> Package rpm.x86_64 0:4.11.3-45.el7 will be updated
+---> Package rpm.x86_64 0:4.11.3-48.el7_9 will be an update
+---> Package rpm-build-libs.x86_64 0:4.11.3-45.el7 will be updated
+---> Package rpm-build-libs.x86_64 0:4.11.3-48.el7_9 will be an update
+---> Package rpm-libs.x86_64 0:4.11.3-45.el7 will be updated
+---> Package rpm-libs.x86_64 0:4.11.3-48.el7_9 will be an update
+---> Package rpm-python.x86_64 0:4.11.3-45.el7 will be updated
+---> Package rpm-python.x86_64 0:4.11.3-48.el7_9 will be an update
+---> Package systemd.x86_64 0:219-78.el7 will be updated
+---> Package systemd.x86_64 0:219-78.el7_9.7 will be an update
+---> Package systemd-libs.x86_64 0:219-78.el7 will be updated
+---> Package systemd-libs.x86_64 0:219-78.el7_9.7 will be an update
+---> Package tzdata.noarch 0:2020d-2.el7 will be updated
+---> Package tzdata.noarch 0:2022g-1.el7 will be an update
+---> Package util-linux.x86_64 0:2.23.2-65.el7 will be updated
+---> Package util-linux.x86_64 0:2.23.2-65.el7_9.1 will be an update
+---> Package vim-minimal.x86_64 2:7.4.629-7.el7 will be updated
+---> Package vim-minimal.x86_64 2:7.4.629-8.el7_9 will be an update
+---> Package xz.x86_64 0:5.2.2-1.el7 will be updated
+---> Package xz.x86_64 0:5.2.2-2.el7_9 will be an update
+---> Package xz-libs.x86_64 0:5.2.2-1.el7 will be updated
+---> Package xz-libs.x86_64 0:5.2.2-2.el7_9 will be an update
+---> Package zlib.x86_64 0:1.2.7-18.el7 will be updated
+---> Package zlib.x86_64 0:1.2.7-20.el7_9 will be an update
+--> Finished Dependency Resolution
+Dependencies Resolved
+================================================================================
+ Package               Arch      Version                       Repository  Size
+================================================================================
+Updating:
+ bash                  x86_64    4.2.46-35.el7_9               updates    1.0 M
+ bind-license          noarch    32:9.11.4-26.P2.el7_9.13      updates     92 k
+ binutils              x86_64    2.27-44.base.el7_9.1          updates    5.9 M
+ ca-certificates       noarch    2022.2.54-74.el7_9            updates    911 k
+ centos-release        x86_64    7-9.2009.1.el7.centos         updates     27 k
+ coreutils             x86_64    8.22-24.el7_9.2               updates    3.3 M
+ curl                  x86_64    7.29.0-59.el7_9.1             updates    271 k
+ cyrus-sasl-lib        x86_64    2.1.26-24.el7_9               updates    156 k
+ device-mapper         x86_64    7:1.02.170-6.el7_9.5          updates    297 k
+ device-mapper-libs    x86_64    7:1.02.170-6.el7_9.5          updates    325 k
+ expat                 x86_64    2.1.0-15.el7_9                updates     83 k
+ glib2                 x86_64    2.56.1-9.el7_9                updates    2.5 M
+ glibc                 x86_64    2.17-326.el7_9                updates    3.6 M
+ glibc-common          x86_64    2.17-326.el7_9                updates     12 M
+ gzip                  x86_64    1.5-11.el7_9                  updates    130 k
+ kpartx                x86_64    0.4.9-136.el7_9               updates     81 k
+ krb5-libs             x86_64    1.15.1-55.el7_9               updates    810 k
+ libblkid              x86_64    2.23.2-65.el7_9.1             updates    183 k
+ libcurl               x86_64    7.29.0-59.el7_9.1             updates    223 k
+ libmount              x86_64    2.23.2-65.el7_9.1             updates    185 k
+ libsmartcols          x86_64    2.23.2-65.el7_9.1             updates    143 k
+ libuuid               x86_64    2.23.2-65.el7_9.1             updates     84 k
+ libxml2               x86_64    2.9.1-6.el7_9.6               updates    668 k
+ libxml2-python        x86_64    2.9.1-6.el7_9.6               updates    247 k
+ nspr                  x86_64    4.34.0-3.1.el7_9              updates    128 k
+ nss                   x86_64    3.79.0-4.el7_9                updates    895 k
+ nss-softokn           x86_64    3.79.0-4.el7_9                updates    379 k
+ nss-softokn-freebl    x86_64    3.79.0-4.el7_9                updates    337 k
+ nss-sysinit           x86_64    3.79.0-4.el7_9                updates     66 k
+ nss-tools             x86_64    3.79.0-4.el7_9                updates    555 k
+ nss-util              x86_64    3.79.0-1.el7_9                updates     80 k
+ openldap              x86_64    2.4.44-25.el7_9               updates    356 k
+ openssl-libs          x86_64    1:1.0.2k-25.el7_9             updates    1.2 M
+ python                x86_64    2.7.5-92.el7_9                updates     96 k
+ python-libs           x86_64    2.7.5-92.el7_9                updates    5.6 M
+ rpm                   x86_64    4.11.3-48.el7_9               updates    1.2 M
+ rpm-build-libs        x86_64    4.11.3-48.el7_9               updates    108 k
+ rpm-libs              x86_64    4.11.3-48.el7_9               updates    279 k
+ rpm-python            x86_64    4.11.3-48.el7_9               updates     84 k
+ systemd               x86_64    219-78.el7_9.7                updates    5.1 M
+ systemd-libs          x86_64    219-78.el7_9.7                updates    419 k
+ tzdata                noarch    2022g-1.el7                   updates    490 k
+ util-linux            x86_64    2.23.2-65.el7_9.1             updates    2.0 M
+ vim-minimal           x86_64    2:7.4.629-8.el7_9             updates    443 k
+ xz                    x86_64    5.2.2-2.el7_9                 updates    229 k
+ xz-libs               x86_64    5.2.2-2.el7_9                 updates    103 k
+ zlib                  x86_64    1.2.7-20.el7_9                updates     90 k
+Transaction Summary
+================================================================================
+Upgrade  47 Packages
+Total download size: 53 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+warning: /var/cache/yum/x86_64/7/updates/packages/bind-license-9.11.4-26.P2.el7_9.13.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+Public key for bind-license-9.11.4-26.P2.el7_9.13.noarch.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                              6.3 MB/s |  53 MB  00:08     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Importing GPG key 0xF4A80EB5:
+ Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+ Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+ Package    : centos-release-7-9.2009.0.el7.centos.x86_64 (@CentOS)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : tzdata-2022g-1.el7.noarch                                   1/94 
+  Updating   : bash-4.2.46-35.el7_9.x86_64                                 2/94 
+  Updating   : nss-softokn-freebl-3.79.0-4.el7_9.x86_64                    3/94 
+  Updating   : glibc-common-2.17-326.el7_9.x86_64                          4/94 
+  Updating   : glibc-2.17-326.el7_9.x86_64                                 5/94 
+  Updating   : nspr-4.34.0-3.1.el7_9.x86_64                                6/94 
+  Updating   : nss-util-3.79.0-1.el7_9.x86_64                              7/94 
+  Updating   : zlib-1.2.7-20.el7_9.x86_64                                  8/94 
+  Updating   : xz-libs-5.2.2-2.el7_9.x86_64                                9/94 
+  Updating   : systemd-libs-219-78.el7_9.7.x86_64                         10/94 
+  Updating   : libuuid-2.23.2-65.el7_9.1.x86_64                           11/94 
+  Updating   : nss-softokn-3.79.0-4.el7_9.x86_64                          12/94 
+  Updating   : libxml2-2.9.1-6.el7_9.6.x86_64                             13/94 
+  Updating   : libsmartcols-2.23.2-65.el7_9.1.x86_64                      14/94 
+  Updating   : expat-2.1.0-15.el7_9.x86_64                                15/94 
+  Updating   : ca-certificates-2022.2.54-74.el7_9.noarch                  16/94 
+  Updating   : coreutils-8.22-24.el7_9.2.x86_64                           17/94 
+  Updating   : krb5-libs-1.15.1-55.el7_9.x86_64                           18/94 
+  Updating   : 1:openssl-libs-1.0.2k-25.el7_9.x86_64                      19/94 
+  Updating   : python-libs-2.7.5-92.el7_9.x86_64                          20/94 
+  Updating   : libblkid-2.23.2-65.el7_9.1.x86_64                          21/94 
+  Updating   : libmount-2.23.2-65.el7_9.1.x86_64                          22/94 
+  Updating   : python-2.7.5-92.el7_9.x86_64                               23/94 
+  Updating   : util-linux-2.23.2-65.el7_9.1.x86_64                        24/94 
+  Updating   : cyrus-sasl-lib-2.1.26-24.el7_9.x86_64                      25/94 
+  Updating   : nss-3.79.0-4.el7_9.x86_64                                  26/94 
+  Updating   : nss-sysinit-3.79.0-4.el7_9.x86_64                          27/94 
+  Updating   : nss-tools-3.79.0-4.el7_9.x86_64                            28/94 
+  Updating   : libcurl-7.29.0-59.el7_9.1.x86_64                           29/94 
+  Updating   : curl-7.29.0-59.el7_9.1.x86_64                              30/94 
+  Updating   : rpm-libs-4.11.3-48.el7_9.x86_64                            31/94 
+  Updating   : rpm-4.11.3-48.el7_9.x86_64                                 32/94 
+  Updating   : openldap-2.4.44-25.el7_9.x86_64                            33/94 
+  Updating   : rpm-build-libs-4.11.3-48.el7_9.x86_64                      34/94 
+  Updating   : centos-release-7-9.2009.1.el7.centos.x86_64                35/94 
+  Updating   : systemd-219-78.el7_9.7.x86_64                              36/94 
+Failed to get D-Bus connection: Operation not permitted
+  Updating   : 7:device-mapper-libs-1.02.170-6.el7_9.5.x86_64             37/94 
+  Updating   : 7:device-mapper-1.02.170-6.el7_9.5.x86_64                  38/94 
+  Updating   : kpartx-0.4.9-136.el7_9.x86_64                              39/94 
+  Updating   : rpm-python-4.11.3-48.el7_9.x86_64                          40/94 
+  Updating   : libxml2-python-2.9.1-6.el7_9.6.x86_64                      41/94 
+  Updating   : glib2-2.56.1-9.el7_9.x86_64                                42/94 
+  Updating   : binutils-2.27-44.base.el7_9.1.x86_64                       43/94 
+install-info: No such file or directory for /usr/share/info/as.info.gz
+install-info: No such file or directory for /usr/share/info/binutils.info.gz
+install-info: No such file or directory for /usr/share/info/gprof.info.gz
+install-info: No such file or directory for /usr/share/info/ld.info.gz
+install-info: No such file or directory for /usr/share/info/standards.info.gz
+  Updating   : gzip-1.5-11.el7_9.x86_64                                   44/94 
+  Updating   : xz-5.2.2-2.el7_9.x86_64                                    45/94 
+  Updating   : 2:vim-minimal-7.4.629-8.el7_9.x86_64                       46/94 
+  Updating   : 32:bind-license-9.11.4-26.P2.el7_9.13.noarch               47/94 
+  Cleanup    : rpm-python-4.11.3-45.el7.x86_64                            48/94 
+  Cleanup    : libxml2-python-2.9.1-6.el7.5.x86_64                        49/94 
+  Cleanup    : rpm-build-libs-4.11.3-45.el7.x86_64                        50/94 
+  Cleanup    : glib2-2.56.1-7.el7.x86_64                                  51/94 
+  Cleanup    : python-2.7.5-89.el7.x86_64                                 52/94 
+  Cleanup    : python-libs-2.7.5-89.el7.x86_64                            53/94 
+  Cleanup    : libxml2-2.9.1-6.el7.5.x86_64                               54/94 
+  Cleanup    : xz-5.2.2-1.el7.x86_64                                      55/94 
+  Cleanup    : binutils-2.27-44.base.el7.x86_64                           56/94 
+  Cleanup    : 32:bind-license-9.11.4-26.P2.el7.noarch                    57/94 
+  Cleanup    : gzip-1.5-10.el7.x86_64                                     58/94 
+  Cleanup    : kpartx-0.4.9-133.el7.x86_64                                59/94 
+  Cleanup    : 7:device-mapper-libs-1.02.170-6.el7.x86_64                 60/94 
+  Cleanup    : 7:device-mapper-1.02.170-6.el7.x86_64                      61/94 
+  Cleanup    : systemd-219-78.el7.x86_64                                  62/94 
+  Cleanup    : util-linux-2.23.2-65.el7.x86_64                            63/94 
+  Cleanup    : curl-7.29.0-59.el7.x86_64                                  64/94 
+  Cleanup    : libcurl-7.29.0-59.el7.x86_64                               65/94 
+  Cleanup    : openldap-2.4.44-22.el7.x86_64                              66/94 
+  Cleanup    : rpm-libs-4.11.3-45.el7.x86_64                              67/94 
+  Cleanup    : rpm-4.11.3-45.el7.x86_64                                   68/94 
+  Cleanup    : nss-tools-3.53.1-3.el7_9.x86_64                            69/94 
+  Cleanup    : nss-sysinit-3.53.1-3.el7_9.x86_64                          70/94 
+  Cleanup    : nss-3.53.1-3.el7_9.x86_64                                  71/94 
+  Cleanup    : nss-softokn-3.53.1-6.el7_9.x86_64                          72/94 
+  Cleanup    : libmount-2.23.2-65.el7.x86_64                              73/94 
+  Cleanup    : libblkid-2.23.2-65.el7.x86_64                              74/94 
+  Cleanup    : cyrus-sasl-lib-2.1.26-23.el7.x86_64                        75/94 
+  Cleanup    : krb5-libs-1.15.1-50.el7.x86_64                             76/94 
+  Cleanup    : coreutils-8.22-24.el7.x86_64                               77/94 
+  Cleanup    : 1:openssl-libs-1.0.2k-19.el7.x86_64                        78/94 
+  Cleanup    : systemd-libs-219-78.el7.x86_64                             79/94 
+  Cleanup    : ca-certificates-2020.2.41-70.0.el7_8.noarch                80/94 
+  Cleanup    : xz-libs-5.2.2-1.el7.x86_64                                 81/94 
+  Cleanup    : zlib-1.2.7-18.el7.x86_64                                   82/94 
+  Cleanup    : libuuid-2.23.2-65.el7.x86_64                               83/94 
+  Cleanup    : libsmartcols-2.23.2-65.el7.x86_64                          84/94 
+  Cleanup    : expat-2.1.0-12.el7.x86_64                                  85/94 
+  Cleanup    : 2:vim-minimal-7.4.629-7.el7.x86_64                         86/94 
+  Cleanup    : centos-release-7-9.2009.0.el7.centos.x86_64                87/94 
+  Cleanup    : glibc-common-2.17-317.el7.x86_64                           88/94 
+  Cleanup    : bash-4.2.46-34.el7.x86_64                                  89/94 
+  Cleanup    : nspr-4.25.0-2.el7_9.x86_64                                 90/94 
+  Cleanup    : nss-util-3.53.1-1.el7_9.x86_64                             91/94 
+  Cleanup    : nss-softokn-freebl-3.53.1-6.el7_9.x86_64                   92/94 
+  Cleanup    : glibc-2.17-317.el7.x86_64                                  93/94 
+  Cleanup    : tzdata-2020d-2.el7.noarch                                  94/94 
+  Verifying  : libblkid-2.23.2-65.el7_9.1.x86_64                           1/94 
+  Verifying  : centos-release-7-9.2009.1.el7.centos.x86_64                 2/94 
+  Verifying  : python-2.7.5-92.el7_9.x86_64                                3/94 
+  Verifying  : libsmartcols-2.23.2-65.el7_9.1.x86_64                       4/94 
+  Verifying  : libcurl-7.29.0-59.el7_9.1.x86_64                            5/94 
+  Verifying  : tzdata-2022g-1.el7.noarch                                   6/94 
+  Verifying  : openldap-2.4.44-25.el7_9.x86_64                             7/94 
+  Verifying  : nss-tools-3.79.0-4.el7_9.x86_64                             8/94 
+  Verifying  : libxml2-python-2.9.1-6.el7_9.6.x86_64                       9/94 
+  Verifying  : 7:device-mapper-1.02.170-6.el7_9.5.x86_64                  10/94 
+  Verifying  : nss-3.79.0-4.el7_9.x86_64                                  11/94 
+  Verifying  : systemd-libs-219-78.el7_9.7.x86_64                         12/94 
+  Verifying  : libxml2-2.9.1-6.el7_9.6.x86_64                             13/94 
+  Verifying  : glibc-2.17-326.el7_9.x86_64                                14/94 
+  Verifying  : libmount-2.23.2-65.el7_9.1.x86_64                          15/94 
+  Verifying  : util-linux-2.23.2-65.el7_9.1.x86_64                        16/94 
+  Verifying  : nss-sysinit-3.79.0-4.el7_9.x86_64                          17/94 
+  Verifying  : binutils-2.27-44.base.el7_9.1.x86_64                       18/94 
+  Verifying  : systemd-219-78.el7_9.7.x86_64                              19/94 
+  Verifying  : bash-4.2.46-35.el7_9.x86_64                                20/94 
+  Verifying  : curl-7.29.0-59.el7_9.1.x86_64                              21/94 
+  Verifying  : 32:bind-license-9.11.4-26.P2.el7_9.13.noarch               22/94 
+  Verifying  : 2:vim-minimal-7.4.629-8.el7_9.x86_64                       23/94 
+  Verifying  : cyrus-sasl-lib-2.1.26-24.el7_9.x86_64                      24/94 
+  Verifying  : nss-softokn-3.79.0-4.el7_9.x86_64                          25/94 
+  Verifying  : 7:device-mapper-libs-1.02.170-6.el7_9.5.x86_64             26/94 
+  Verifying  : kpartx-0.4.9-136.el7_9.x86_64                              27/94 
+  Verifying  : nss-util-3.79.0-1.el7_9.x86_64                             28/94 
+  Verifying  : coreutils-8.22-24.el7_9.2.x86_64                           29/94 
+  Verifying  : expat-2.1.0-15.el7_9.x86_64                                30/94 
+  Verifying  : rpm-libs-4.11.3-48.el7_9.x86_64                            31/94 
+  Verifying  : nspr-4.34.0-3.1.el7_9.x86_64                               32/94 
+  Verifying  : rpm-python-4.11.3-48.el7_9.x86_64                          33/94 
+  Verifying  : libuuid-2.23.2-65.el7_9.1.x86_64                           34/94 
+  Verifying  : xz-libs-5.2.2-2.el7_9.x86_64                               35/94 
+  Verifying  : nss-softokn-freebl-3.79.0-4.el7_9.x86_64                   36/94 
+  Verifying  : zlib-1.2.7-20.el7_9.x86_64                                 37/94 
+  Verifying  : python-libs-2.7.5-92.el7_9.x86_64                          38/94 
+  Verifying  : rpm-4.11.3-48.el7_9.x86_64                                 39/94 
+  Verifying  : glib2-2.56.1-9.el7_9.x86_64                                40/94 
+  Verifying  : krb5-libs-1.15.1-55.el7_9.x86_64                           41/94 
+  Verifying  : 1:openssl-libs-1.0.2k-25.el7_9.x86_64                      42/94 
+  Verifying  : gzip-1.5-11.el7_9.x86_64                                   43/94 
+  Verifying  : glibc-common-2.17-326.el7_9.x86_64                         44/94 
+  Verifying  : ca-certificates-2022.2.54-74.el7_9.noarch                  45/94 
+  Verifying  : xz-5.2.2-2.el7_9.x86_64                                    46/94 
+  Verifying  : rpm-build-libs-4.11.3-48.el7_9.x86_64                      47/94 
+  Verifying  : rpm-4.11.3-45.el7.x86_64                                   48/94 
+  Verifying  : nss-tools-3.53.1-3.el7_9.x86_64                            49/94 
+  Verifying  : glibc-common-2.17-317.el7.x86_64                           50/94 
+  Verifying  : ca-certificates-2020.2.41-70.0.el7_8.noarch                51/94 
+  Verifying  : nss-softokn-3.53.1-6.el7_9.x86_64                          52/94 
+  Verifying  : nss-util-3.53.1-1.el7_9.x86_64                             53/94 
+  Verifying  : glib2-2.56.1-7.el7.x86_64                                  54/94 
+  Verifying  : nspr-4.25.0-2.el7_9.x86_64                                 55/94 
+  Verifying  : systemd-219-78.el7.x86_64                                  56/94 
+  Verifying  : 7:device-mapper-1.02.170-6.el7.x86_64                      57/94 
+  Verifying  : libblkid-2.23.2-65.el7.x86_64                              58/94 
+  Verifying  : python-libs-2.7.5-89.el7.x86_64                            59/94 
+  Verifying  : rpm-libs-4.11.3-45.el7.x86_64                              60/94 
+  Verifying  : 1:openssl-libs-1.0.2k-19.el7.x86_64                        61/94 
+  Verifying  : libxml2-python-2.9.1-6.el7.5.x86_64                        62/94 
+  Verifying  : tzdata-2020d-2.el7.noarch                                  63/94 
+  Verifying  : libuuid-2.23.2-65.el7.x86_64                               64/94 
+  Verifying  : 2:vim-minimal-7.4.629-7.el7.x86_64                         65/94 
+  Verifying  : coreutils-8.22-24.el7.x86_64                               66/94 
+  Verifying  : nss-sysinit-3.53.1-3.el7_9.x86_64                          67/94 
+  Verifying  : nss-softokn-freebl-3.53.1-6.el7_9.x86_64                   68/94 
+  Verifying  : rpm-python-4.11.3-45.el7.x86_64                            69/94 
+  Verifying  : libcurl-7.29.0-59.el7.x86_64                               70/94 
+  Verifying  : curl-7.29.0-59.el7.x86_64                                  71/94 
+  Verifying  : bash-4.2.46-34.el7.x86_64                                  72/94 
+  Verifying  : rpm-build-libs-4.11.3-45.el7.x86_64                        73/94 
+  Verifying  : gzip-1.5-10.el7.x86_64                                     74/94 
+  Verifying  : binutils-2.27-44.base.el7.x86_64                           75/94 
+  Verifying  : nss-3.53.1-3.el7_9.x86_64                                  76/94 
+  Verifying  : zlib-1.2.7-18.el7.x86_64                                   77/94 
+  Verifying  : libxml2-2.9.1-6.el7.5.x86_64                               78/94 
+  Verifying  : centos-release-7-9.2009.0.el7.centos.x86_64                79/94 
+  Verifying  : systemd-libs-219-78.el7.x86_64                             80/94 
+  Verifying  : openldap-2.4.44-22.el7.x86_64                              81/94 
+  Verifying  : 7:device-mapper-libs-1.02.170-6.el7.x86_64                 82/94 
+  Verifying  : util-linux-2.23.2-65.el7.x86_64                            83/94 
+  Verifying  : xz-libs-5.2.2-1.el7.x86_64                                 84/94 
+  Verifying  : python-2.7.5-89.el7.x86_64                                 85/94 
+  Verifying  : expat-2.1.0-12.el7.x86_64                                  86/94 
+  Verifying  : glibc-2.17-317.el7.x86_64                                  87/94 
+  Verifying  : krb5-libs-1.15.1-50.el7.x86_64                             88/94 
+  Verifying  : kpartx-0.4.9-133.el7.x86_64                                89/94 
+  Verifying  : 32:bind-license-9.11.4-26.P2.el7.noarch                    90/94 
+  Verifying  : xz-5.2.2-1.el7.x86_64                                      91/94 
+  Verifying  : libsmartcols-2.23.2-65.el7.x86_64                          92/94 
+  Verifying  : cyrus-sasl-lib-2.1.26-23.el7.x86_64                        93/94 
+  Verifying  : libmount-2.23.2-65.el7.x86_64                              94/94 
+Updated:
+  bash.x86_64 0:4.2.46-35.el7_9                                                 
+  bind-license.noarch 32:9.11.4-26.P2.el7_9.13                                  
+  binutils.x86_64 0:2.27-44.base.el7_9.1                                        
+  ca-certificates.noarch 0:2022.2.54-74.el7_9                                   
+  centos-release.x86_64 0:7-9.2009.1.el7.centos                                 
+  coreutils.x86_64 0:8.22-24.el7_9.2                                            
+  curl.x86_64 0:7.29.0-59.el7_9.1                                               
+  cyrus-sasl-lib.x86_64 0:2.1.26-24.el7_9                                       
+  device-mapper.x86_64 7:1.02.170-6.el7_9.5                                     
+  device-mapper-libs.x86_64 7:1.02.170-6.el7_9.5                                
+  expat.x86_64 0:2.1.0-15.el7_9                                                 
+  glib2.x86_64 0:2.56.1-9.el7_9                                                 
+  glibc.x86_64 0:2.17-326.el7_9                                                 
+  glibc-common.x86_64 0:2.17-326.el7_9                                          
+  gzip.x86_64 0:1.5-11.el7_9                                                    
+  kpartx.x86_64 0:0.4.9-136.el7_9                                               
+  krb5-libs.x86_64 0:1.15.1-55.el7_9                                            
+  libblkid.x86_64 0:2.23.2-65.el7_9.1                                           
+  libcurl.x86_64 0:7.29.0-59.el7_9.1                                            
+  libmount.x86_64 0:2.23.2-65.el7_9.1                                           
+  libsmartcols.x86_64 0:2.23.2-65.el7_9.1                                       
+  libuuid.x86_64 0:2.23.2-65.el7_9.1                                            
+  libxml2.x86_64 0:2.9.1-6.el7_9.6                                              
+  libxml2-python.x86_64 0:2.9.1-6.el7_9.6                                       
+  nspr.x86_64 0:4.34.0-3.1.el7_9                                                
+  nss.x86_64 0:3.79.0-4.el7_9                                                   
+  nss-softokn.x86_64 0:3.79.0-4.el7_9                                           
+  nss-softokn-freebl.x86_64 0:3.79.0-4.el7_9                                    
+  nss-sysinit.x86_64 0:3.79.0-4.el7_9                                           
+  nss-tools.x86_64 0:3.79.0-4.el7_9                                             
+  nss-util.x86_64 0:3.79.0-1.el7_9                                              
+  openldap.x86_64 0:2.4.44-25.el7_9                                             
+  openssl-libs.x86_64 1:1.0.2k-25.el7_9                                         
+  python.x86_64 0:2.7.5-92.el7_9                                                
+  python-libs.x86_64 0:2.7.5-92.el7_9                                           
+  rpm.x86_64 0:4.11.3-48.el7_9                                                  
+  rpm-build-libs.x86_64 0:4.11.3-48.el7_9                                       
+  rpm-libs.x86_64 0:4.11.3-48.el7_9                                             
+  rpm-python.x86_64 0:4.11.3-48.el7_9                                           
+  systemd.x86_64 0:219-78.el7_9.7                                               
+  systemd-libs.x86_64 0:219-78.el7_9.7                                          
+  tzdata.noarch 0:2022g-1.el7                                                   
+  util-linux.x86_64 0:2.23.2-65.el7_9.1                                         
+  vim-minimal.x86_64 2:7.4.629-8.el7_9                                          
+  xz.x86_64 0:5.2.2-2.el7_9                                                     
+  xz-libs.x86_64 0:5.2.2-2.el7_9                                                
+  zlib.x86_64 0:1.2.7-20.el7_9                                                  
+Complete!
+$ yum install -y epel-release
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirrors.vhost.vn
+ * extras: mirrors.vhost.vn
+ * updates: mirror.vodien.com
+Resolving Dependencies
+--> Running transaction check
+---> Package epel-release.noarch 0:7-11 will be installed
+--> Finished Dependency Resolution
+Dependencies Resolved
+================================================================================
+ Package                Arch             Version         Repository        Size
+================================================================================
+Installing:
+ epel-release           noarch           7-11            extras            15 k
+Transaction Summary
+================================================================================
+Install  1 Package
+Total download size: 15 k
+Installed size: 24 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : epel-release-7-11.noarch                                     1/1 
+  Verifying  : epel-release-7-11.noarch                                     1/1 
+Installed:
+  epel-release.noarch 0:7-11                                                    
+Complete!
+$ yum install ansible -y
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirrors.vhost.vn
+ * epel: hkg.mirror.rackspace.com
+ * extras: mirrors.vhost.vn
+ * updates: mirror.vodien.com
+Resolving Dependencies
+--> Running transaction check
+---> Package ansible.noarch 0:2.9.27-1.el7 will be installed
+--> Processing Dependency: PyYAML for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python-httplib2 for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python-jinja2 for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python-paramiko for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python-setuptools for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python-six for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python2-cryptography for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: python2-jmespath for package: ansible-2.9.27-1.el7.noarch
+--> Processing Dependency: sshpass for package: ansible-2.9.27-1.el7.noarch
+--> Running transaction check
+---> Package PyYAML.x86_64 0:3.10-11.el7 will be installed
+--> Processing Dependency: libyaml-0.so.2()(64bit) for package: PyYAML-3.10-11.el7.x86_64
+---> Package python-jinja2.noarch 0:2.7.2-4.el7 will be installed
+--> Processing Dependency: python-babel >= 0.8 for package: python-jinja2-2.7.2-4.el7.noarch
+--> Processing Dependency: python-markupsafe for package: python-jinja2-2.7.2-4.el7.noarch
+---> Package python-paramiko.noarch 0:2.1.1-9.el7 will be installed
+--> Processing Dependency: python2-pyasn1 for package: python-paramiko-2.1.1-9.el7.noarch
+---> Package python-setuptools.noarch 0:0.9.8-7.el7 will be installed
+--> Processing Dependency: python-backports-ssl_match_hostname for package: python-setuptools-0.9.8-7.el7.noarch
+---> Package python-six.noarch 0:1.9.0-2.el7 will be installed
+---> Package python2-cryptography.x86_64 0:1.7.2-2.el7 will be installed
+--> Processing Dependency: python-idna >= 2.0 for package: python2-cryptography-1.7.2-2.el7.x86_64
+--> Processing Dependency: python-cffi >= 1.4.1 for package: python2-cryptography-1.7.2-2.el7.x86_64
+--> Processing Dependency: python-ipaddress for package: python2-cryptography-1.7.2-2.el7.x86_64
+--> Processing Dependency: python-enum34 for package: python2-cryptography-1.7.2-2.el7.x86_64
+--> Processing Dependency: openssl for package: python2-cryptography-1.7.2-2.el7.x86_64
+---> Package python2-httplib2.noarch 0:0.18.1-3.el7 will be installed
+---> Package python2-jmespath.noarch 0:0.9.4-2.el7 will be installed
+---> Package sshpass.x86_64 0:1.06-2.el7 will be installed
+--> Running transaction check
+---> Package libyaml.x86_64 0:0.1.4-11.el7_0 will be installed
+---> Package openssl.x86_64 1:1.0.2k-25.el7_9 will be installed
+--> Processing Dependency: make for package: 1:openssl-1.0.2k-25.el7_9.x86_64
+---> Package python-babel.noarch 0:0.9.6-8.el7 will be installed
+---> Package python-backports-ssl_match_hostname.noarch 0:3.5.0.1-1.el7 will be installed
+--> Processing Dependency: python-backports for package: python-backports-ssl_match_hostname-3.5.0.1-1.el7.noarch
+---> Package python-cffi.x86_64 0:1.6.0-5.el7 will be installed
+--> Processing Dependency: python-pycparser for package: python-cffi-1.6.0-5.el7.x86_64
+---> Package python-enum34.noarch 0:1.0.4-1.el7 will be installed
+---> Package python-idna.noarch 0:2.4-1.el7 will be installed
+---> Package python-ipaddress.noarch 0:1.0.16-2.el7 will be installed
+---> Package python-markupsafe.x86_64 0:0.11-10.el7 will be installed
+---> Package python2-pyasn1.noarch 0:0.1.9-7.el7 will be installed
+--> Running transaction check
+---> Package make.x86_64 1:3.82-24.el7 will be installed
+---> Package python-backports.x86_64 0:1.0-8.el7 will be installed
+---> Package python-pycparser.noarch 0:2.14-1.el7 will be installed
+--> Processing Dependency: python-ply for package: python-pycparser-2.14-1.el7.noarch
+--> Running transaction check
+---> Package python-ply.noarch 0:3.4-11.el7 will be installed
+--> Finished Dependency Resolution
+Dependencies Resolved
+================================================================================
+ Package                              Arch    Version            Repository
+                                                                           Size
+================================================================================
+Installing:
+ ansible                              noarch  2.9.27-1.el7       epel      17 M
+Installing for dependencies:
+ PyYAML                               x86_64  3.10-11.el7        base     153 k
+ libyaml                              x86_64  0.1.4-11.el7_0     base      55 k
+ make                                 x86_64  1:3.82-24.el7      base     421 k
+ openssl                              x86_64  1:1.0.2k-25.el7_9  updates  494 k
+ python-babel                         noarch  0.9.6-8.el7        base     1.4 M
+ python-backports                     x86_64  1.0-8.el7          base     5.8 k
+ python-backports-ssl_match_hostname  noarch  3.5.0.1-1.el7      base      13 k
+ python-cffi                          x86_64  1.6.0-5.el7        base     218 k
+ python-enum34                        noarch  1.0.4-1.el7        base      52 k
+ python-idna                          noarch  2.4-1.el7          base      94 k
+ python-ipaddress                     noarch  1.0.16-2.el7       base      34 k
+ python-jinja2                        noarch  2.7.2-4.el7        base     519 k
+ python-markupsafe                    x86_64  0.11-10.el7        base      25 k
+ python-paramiko                      noarch  2.1.1-9.el7        base     269 k
+ python-ply                           noarch  3.4-11.el7         base     123 k
+ python-pycparser                     noarch  2.14-1.el7         base     104 k
+ python-setuptools                    noarch  0.9.8-7.el7        base     397 k
+ python-six                           noarch  1.9.0-2.el7        base      29 k
+ python2-cryptography                 x86_64  1.7.2-2.el7        base     502 k
+ python2-httplib2                     noarch  0.18.1-3.el7       epel     125 k
+ python2-jmespath                     noarch  0.9.4-2.el7        epel      41 k
+ python2-pyasn1                       noarch  0.1.9-7.el7        base     100 k
+ sshpass                              x86_64  1.06-2.el7         extras    21 k
+Transaction Summary
+================================================================================
+Install  1 Package (+23 Dependent packages)
+Total download size: 22 M
+Installed size: 124 M
+Downloading packages:
+warning: /var/cache/yum/x86_64/7/epel/packages/ansible-2.9.27-1.el7.noarch.rpm: Header V4 RSA/SHA256 Signature, key ID 352c64e5: NOKEY
+Public key for ansible-2.9.27-1.el7.noarch.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                              4.9 MB/s |  22 MB  00:04     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+Importing GPG key 0x352C64E5:
+ Userid     : "Fedora EPEL (7) <epel@fedoraproject.org>"
+ Fingerprint: 91e9 7d7c 4a5e 96f1 7f3e 888f 6a2f aea2 352c 64e5
+ Package    : epel-release-7-11.noarch (@extras)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : python2-pyasn1-0.1.9-7.el7.noarch                           1/24 
+  Installing : python-ipaddress-1.0.16-2.el7.noarch                        2/24 
+  Installing : python-six-1.9.0-2.el7.noarch                               3/24 
+  Installing : sshpass-1.06-2.el7.x86_64                                   4/24 
+  Installing : libyaml-0.1.4-11.el7_0.x86_64                               5/24 
+  Installing : PyYAML-3.10-11.el7.x86_64                                   6/24 
+  Installing : python-backports-1.0-8.el7.x86_64                           7/24 
+  Installing : python-backports-ssl_match_hostname-3.5.0.1-1.el7.noarch    8/24 
+  Installing : python-setuptools-0.9.8-7.el7.noarch                        9/24 
+  Installing : python2-httplib2-0.18.1-3.el7.noarch                       10/24 
+  Installing : python-babel-0.9.6-8.el7.noarch                            11/24 
+  Installing : python2-jmespath-0.9.4-2.el7.noarch                        12/24 
+  Installing : python-ply-3.4-11.el7.noarch                               13/24 
+  Installing : python-pycparser-2.14-1.el7.noarch                         14/24 
+  Installing : python-cffi-1.6.0-5.el7.x86_64                             15/24 
+  Installing : python-markupsafe-0.11-10.el7.x86_64                       16/24 
+  Installing : python-jinja2-2.7.2-4.el7.noarch                           17/24 
+  Installing : python-idna-2.4-1.el7.noarch                               18/24 
+  Installing : 1:make-3.82-24.el7.x86_64                                  19/24 
+  Installing : 1:openssl-1.0.2k-25.el7_9.x86_64                           20/24 
+  Installing : python-enum34-1.0.4-1.el7.noarch                           21/24 
+  Installing : python2-cryptography-1.7.2-2.el7.x86_64                    22/24 
+  Installing : python-paramiko-2.1.1-9.el7.noarch                         23/24 
+  Installing : ansible-2.9.27-1.el7.noarch                                24/24 
+  Verifying  : python-backports-ssl_match_hostname-3.5.0.1-1.el7.noarch    1/24 
+  Verifying  : 1:openssl-1.0.2k-25.el7_9.x86_64                            2/24 
+  Verifying  : python-enum34-1.0.4-1.el7.noarch                            3/24 
+  Verifying  : python-setuptools-0.9.8-7.el7.noarch                        4/24 
+  Verifying  : python-paramiko-2.1.1-9.el7.noarch                          5/24 
+  Verifying  : python-jinja2-2.7.2-4.el7.noarch                            6/24 
+  Verifying  : 1:make-3.82-24.el7.x86_64                                   7/24 
+  Verifying  : python-six-1.9.0-2.el7.noarch                               8/24 
+  Verifying  : python-idna-2.4-1.el7.noarch                                9/24 
+  Verifying  : python-markupsafe-0.11-10.el7.x86_64                       10/24 
+  Verifying  : python-ply-3.4-11.el7.noarch                               11/24 
+  Verifying  : ansible-2.9.27-1.el7.noarch                                12/24 
+  Verifying  : python2-jmespath-0.9.4-2.el7.noarch                        13/24 
+  Verifying  : python-babel-0.9.6-8.el7.noarch                            14/24 
+  Verifying  : python2-httplib2-0.18.1-3.el7.noarch                       15/24 
+  Verifying  : python-backports-1.0-8.el7.x86_64                          16/24 
+  Verifying  : python-cffi-1.6.0-5.el7.x86_64                             17/24 
+  Verifying  : python-pycparser-2.14-1.el7.noarch                         18/24 
+  Verifying  : libyaml-0.1.4-11.el7_0.x86_64                              19/24 
+  Verifying  : python-ipaddress-1.0.16-2.el7.noarch                       20/24 
+  Verifying  : sshpass-1.06-2.el7.x86_64                                  21/24 
+  Verifying  : python2-pyasn1-0.1.9-7.el7.noarch                          22/24 
+  Verifying  : PyYAML-3.10-11.el7.x86_64                                  23/24 
+  Verifying  : python2-cryptography-1.7.2-2.el7.x86_64                    24/24 
+Installed:
+  ansible.noarch 0:2.9.27-1.el7                                                 
+Dependency Installed:
+  PyYAML.x86_64 0:3.10-11.el7                                                   
+  libyaml.x86_64 0:0.1.4-11.el7_0                                               
+  make.x86_64 1:3.82-24.el7                                                     
+  openssl.x86_64 1:1.0.2k-25.el7_9                                              
+  python-babel.noarch 0:0.9.6-8.el7                                             
+  python-backports.x86_64 0:1.0-8.el7                                           
+  python-backports-ssl_match_hostname.noarch 0:3.5.0.1-1.el7                    
+  python-cffi.x86_64 0:1.6.0-5.el7                                              
+  python-enum34.noarch 0:1.0.4-1.el7                                            
+  python-idna.noarch 0:2.4-1.el7                                                
+  python-ipaddress.noarch 0:1.0.16-2.el7                                        
+  python-jinja2.noarch 0:2.7.2-4.el7                                            
+  python-markupsafe.x86_64 0:0.11-10.el7                                        
+  python-paramiko.noarch 0:2.1.1-9.el7                                          
+  python-ply.noarch 0:3.4-11.el7                                                
+  python-pycparser.noarch 0:2.14-1.el7                                          
+  python-setuptools.noarch 0:0.9.8-7.el7                                        
+  python-six.noarch 0:1.9.0-2.el7                                               
+  python2-cryptography.x86_64 0:1.7.2-2.el7                                     
+  python2-httplib2.noarch 0:0.18.1-3.el7                                        
+  python2-jmespath.noarch 0:0.9.4-2.el7                                         
+  python2-pyasn1.noarch 0:0.1.9-7.el7                                           
+  sshpass.x86_64 0:1.06-2.el7                                                   
+Complete!
+$ yum install -y python3
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirrors.vhost.vn
+ * epel: mirror2.totbb.net
+ * extras: mirrors.vhost.vn
+ * updates: mirror.vodien.com
+Resolving Dependencies
+--> Running transaction check
+---> Package python3.x86_64 0:3.6.8-18.el7 will be installed
+--> Processing Dependency: python3-libs(x86-64) = 3.6.8-18.el7 for package: python3-3.6.8-18.el7.x86_64
+--> Processing Dependency: python3-setuptools for package: python3-3.6.8-18.el7.x86_64
+--> Processing Dependency: python3-pip for package: python3-3.6.8-18.el7.x86_64
+--> Processing Dependency: libpython3.6m.so.1.0()(64bit) for package: python3-3.6.8-18.el7.x86_64
+--> Running transaction check
+---> Package python3-libs.x86_64 0:3.6.8-18.el7 will be installed
+--> Processing Dependency: libtirpc.so.1()(64bit) for package: python3-libs-3.6.8-18.el7.x86_64
+---> Package python3-pip.noarch 0:9.0.3-8.el7 will be installed
+---> Package python3-setuptools.noarch 0:39.2.0-10.el7 will be installed
+--> Running transaction check
+---> Package libtirpc.x86_64 0:0.2.4-0.16.el7 will be installed
+--> Finished Dependency Resolution
+Dependencies Resolved
+================================================================================
+ Package                  Arch         Version              Repository     Size
+================================================================================
+Installing:
+ python3                  x86_64       3.6.8-18.el7         updates        70 k
+Installing for dependencies:
+ libtirpc                 x86_64       0.2.4-0.16.el7       base           89 k
+ python3-libs             x86_64       3.6.8-18.el7         updates       6.9 M
+ python3-pip              noarch       9.0.3-8.el7          base          1.6 M
+ python3-setuptools       noarch       39.2.0-10.el7        base          629 k
+Transaction Summary
+================================================================================
+Install  1 Package (+4 Dependent packages)
+Total download size: 9.3 M
+Installed size: 48 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              5.1 MB/s | 9.3 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libtirpc-0.2.4-0.16.el7.x86_64                               1/5 
+  Installing : python3-setuptools-39.2.0-10.el7.noarch                      2/5 
+  Installing : python3-pip-9.0.3-8.el7.noarch                               3/5 
+  Installing : python3-3.6.8-18.el7.x86_64                                  4/5 
+  Installing : python3-libs-3.6.8-18.el7.x86_64                             5/5 
+  Verifying  : libtirpc-0.2.4-0.16.el7.x86_64                               1/5 
+  Verifying  : python3-setuptools-39.2.0-10.el7.noarch                      2/5 
+  Verifying  : python3-libs-3.6.8-18.el7.x86_64                             3/5 
+  Verifying  : python3-3.6.8-18.el7.x86_64                                  4/5 
+  Verifying  : python3-pip-9.0.3-8.el7.noarch                               5/5 
+Installed:
+  python3.x86_64 0:3.6.8-18.el7                                                 
+Dependency Installed:
+  libtirpc.x86_64 0:0.2.4-0.16.el7   python3-libs.x86_64 0:3.6.8-18.el7         
+  python3-pip.noarch 0:9.0.3-8.el7   python3-setuptools.noarch 0:39.2.0-10.el7  
+Complete!
+$ cp -rf * /etc/ansible
+$ cd /etc/ansible
+$ ansible-playbook -i hosts.yml cau_hinh.yml
+PLAY [Configure R1] ************************************************************
+TASK [Set IP Interface] ********************************************************
+ok: [R1] => (item={u'name': u'1', u'number': 1})
+ok: [R1] => (item={u'name': u'2', u'number': 12})
+TASK [No shut] *****************************************************************
+changed: [R1] => (item={u'name': u'1'})
+changed: [R1] => (item={u'name': u'2'})
+TASK [Configure static route] **************************************************
+ok: [R1]
+PLAY [Configure R2] ************************************************************
+TASK [Set IP Interface] ********************************************************
+ok: [R2] => (item={u'number1': 1, u'number': 2, u'name': u'1'})
+ok: [R2] => (item={u'number1': 2, u'number': 12, u'name': u'2'})
+TASK [No shut] *****************************************************************
+changed: [R2] => (item={u'name': u'1'})
+changed: [R2] => (item={u'name': u'2'})
+TASK [Configure static route] **************************************************
+ok: [R2]
+TASK [Connection from e0/1 in R2 to e0/1 in R1] ********************************
+ok: [R2]
+PLAY [GENERATE A REPORT ROUTER R1] *********************************************
+TASK [CAPTURE SHOW IP INTERFACE] ***********************************************
+ok: [R1]
+TASK [DISPLAY THE OUTPUT] ******************************************************
+ok: [R1] => {
+    "output.stdout_lines": [
+        [
+            "Interface                  IP-Address      OK? Method Status                Protocol", 
+            "Ethernet0/0                10.215.27.91    YES DHCP   up                    up      ", 
+            "Ethernet0/1                192.168.1.1     YES NVRAM  up                    up      ", 
+            "Ethernet0/2                192.168.12.1    YES NVRAM  up                    up      ", 
+            "Ethernet0/3                unassigned      YES NVRAM  administratively down down"
+        ], 
+        [
+            "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP", 
+            "       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area ", 
+            "       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2", 
+            "       E1 - OSPF external type 1, E2 - OSPF external type 2", 
+            "       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2", 
+            "       ia - IS-IS inter area, * - candidate default, U - per-user static route", 
+            "       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP", 
+            "       a - application route", 
+            "       + - replicated route, % - next hop override, p - overrides from PfR", 
+            "", 
+            "Gateway of last resort is 10.215.26.9 to network 0.0.0.0", 
+            "", 
+            "S*    0.0.0.0/0 [254/0] via 10.215.26.9", 
+            "      10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks", 
+            "C        10.215.26.0/23 is directly connected, Ethernet0/0", 
+            "L        10.215.27.91/32 is directly connected, Ethernet0/0", 
+            "      192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks", 
+            "C        192.168.1.0/24 is directly connected, Ethernet0/1", 
+            "L        192.168.1.1/32 is directly connected, Ethernet0/1", 
+            "S     192.168.2.0/24 [1/0] via 192.168.12.2", 
+            "      192.168.12.0/24 is variably subnetted, 2 subnets, 2 masks", 
+            "C        192.168.12.0/24 is directly connected, Ethernet0/2", 
+            "L        192.168.12.1/32 is directly connected, Ethernet0/2"
+        ]
+    ]
+}
+PLAY [GENERATE A REPORT ROUTER R2] *********************************************
+TASK [CAPTURE SHOW IP INTERFACE] ***********************************************
+ok: [R2]
+TASK [DISPLAY THE OUTPUT] ******************************************************
+ok: [R2] => {
+    "output.stdout_lines": [
+        [
+            "Interface                  IP-Address      OK? Method Status                Protocol", 
+            "Ethernet0/0                10.215.27.95    YES DHCP   up                    up      ", 
+            "Ethernet0/1                192.168.2.1     YES NVRAM  up                    up      ", 
+            "Ethernet0/2                192.168.12.2    YES NVRAM  up                    up      ", 
+            "Ethernet0/3                unassigned      YES NVRAM  administratively down down"
+        ], 
+        [
+            "Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP", 
+            "       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area ", 
+            "       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2", 
+            "       E1 - OSPF external type 1, E2 - OSPF external type 2", 
+            "       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2", 
+            "       ia - IS-IS inter area, * - candidate default, U - per-user static route", 
+            "       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP", 
+            "       a - application route", 
+            "       + - replicated route, % - next hop override, p - overrides from PfR", 
+            "", 
+            "Gateway of last resort is 10.215.26.9 to network 0.0.0.0", 
+            "", 
+            "S*    0.0.0.0/0 [254/0] via 10.215.26.9", 
+            "      10.0.0.0/8 is variably subnetted, 2 subnets, 2 masks", 
+            "C        10.215.26.0/23 is directly connected, Ethernet0/0", 
+            "L        10.215.27.95/32 is directly connected, Ethernet0/0", 
+            "S     192.168.1.0/24 [1/0] via 192.168.12.1", 
+            "      192.168.2.0/24 is variably subnetted, 2 subnets, 2 masks", 
+            "C        192.168.2.0/24 is directly connected, Ethernet0/1", 
+            "L        192.168.2.1/32 is directly connected, Ethernet0/1", 
+            "      192.168.12.0/24 is variably subnetted, 2 subnets, 2 masks", 
+            "C        192.168.12.0/24 is directly connected, Ethernet0/2", 
+            "L        192.168.12.2/32 is directly connected, Ethernet0/2"
+        ]
+    ]
+}
+PLAY RECAP *********************************************************************
+R1                         : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+R2                         : ok=6    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+Cleaning up project directory and file based variables
+00:00
+Job succeeded

@@ -1,0 +1,27 @@
+[root@zabbix devnet]# docker image build -t pythonapp:v2 .
+Sending build context to Docker daemon  3.072kB
+Step 1/6 : FROM python:3.9.16-alpine3.16
+ ---> 30b949918f53
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> ef1c3584eeb1
+Step 3/6 : COPY app.py ./
+ ---> Using cache
+ ---> 3e0e6ca39282
+Step 4/6 : RUN python3 -m pip install flask
+ ---> Using cache
+ ---> b6e547c90a7e
+Step 5/6 : EXPOSE 5000
+ ---> Using cache
+ ---> 407347b8b006
+Step 6/6 : CMD python3 app.py
+ ---> Using cache
+ ---> 963798d1f5b5
+Successfully built 963798d1f5b5
+Successfully tagged pythonapp:v2
+[root@zabbix devnet]# docker image ls
+REPOSITORY   TAG                 IMAGE ID       CREATED        SIZE
+pythonapp    v1                  963798d1f5b5   34 hours ago   59.5MB
+pythonapp    v2                  963798d1f5b5   34 hours ago   59.5MB
+python       3.9.16-alpine3.16   30b949918f53   6 days ago     48MB
+[root@zabbix devnet]#
